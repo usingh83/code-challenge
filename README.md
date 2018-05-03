@@ -6,7 +6,9 @@ A simple LTV can be calculated using the following equation: `52(a) x t`. Where 
 
 ## Code Requirements
 
-Write a program that ingests event data and implements one analytic method, below. You are expected to write clean, well-documented and well-tested code. Be sure to think about performance - what the performance characteristic of the code is and how it could be improved in the future.
+1. Solve this problem using SQL. Create a relational data model , and use this data model to write SQL that will return the Customer Lifetime Value for all customers.
+
+2. Write a program that ingests event data and implements one analytic method, below. You are expected to write clean, well-documented and well-tested code. Be sure to think about performance - what the performance characteristic of the code is and how it could be improved in the future.
 
 You may use one of the following OO languages: Java, Python, Scala.
 
