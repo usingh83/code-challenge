@@ -3,7 +3,7 @@ from dateutil import rrule
 import MySQLdb
 
 # Select if you want to see the SQL solution or the Python one
-SQL=True
+SQL=False
 
 # Function to count the weeks between 2 dates, if 2 Dates are equal count_weeks is 1
 def weeks_between_dates(start, end):
