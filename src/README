@@ -1,1 +1,10 @@
-Your source files reside in this directory
+To Run the code please download the dependencies:
+
+pip install python-dateutil
+
+pip install MySQL-python
+
+I have used python for coding the solution, I have solved the problem using SQL as well as using python collections libraries. You will need to have a Mysql database handy to run this code and will have to change the connection string. 
+If you assign the SQL variable to true, the program will create a database and configure the tables in the database for you, the SQL's results will be saved to the output file and the database will be deleted. 
+If you assign the SQL variable to false, the program will create a python dictionary for each customer and calculate his/her's LTV.
+The code is fully formatted and clean. Let me know if you need anything else.
