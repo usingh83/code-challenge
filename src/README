@@ -8,3 +8,13 @@ I have used python for coding the solution, I have solved the problem using SQL 
 If you assign the SQL variable to true, the program will create a database and configure the tables in the database for you, the SQL's results will be saved to the output file and the database will be deleted. 
 If you assign the SQL variable to false, the program will create a python dictionary for each customer and calculate his/her's LTV.
 The code is fully formatted and clean. Let me know if you need anything else.
+
+Improvements
+
+To improve the solution we can do the following:
+ 1: create individual tables for the sub-queries, or have materialized viewes created which are refreashed when required.
+ 2: Index the primary key columns and foriegn key columns.
+ 3: check if all the feild are valid and clean inconsistant and absurd records.
+ 
+
+
